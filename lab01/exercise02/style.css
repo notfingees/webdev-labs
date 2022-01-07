@@ -11,14 +11,48 @@ Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
 
+main{
+    display: flex;
+}
 
+.box {
+    border: solid 1px black;
+    width: 300px;
+    box-sizing: border-box;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    
+}
+h2{
+    padding: 2vw;
+}
+button{
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
+p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    
+}
+img{
+    max-width: 100%;
+    max-height: auto;
+}
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
+    main{
+        flex-wrap: wrap;
 
+
+    }
+    
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-
+    main{
+        flex-wrap: wrap;
+    }
     
 }
